@@ -1,0 +1,2 @@
+add_executable(backtest_benchmark backtester_benchmark.cpp)
+target_link_libraries(backtest_benchmark PRIVATE backtest benchmark::benchmark_main)
